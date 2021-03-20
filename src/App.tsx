@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
+import { Header } from './components/Header';
 import { GlobalStyle} from './styles/global';
-
-// import './App.css';
 
 const Title = styled.h1`
   font-size: 64px;
@@ -11,7 +10,7 @@ const Title = styled.h1`
 function App() {
   return (
     <div>
-      <Title>hello</Title>
+      <Header/>
       <GlobalStyle/>
     </div>
   );
